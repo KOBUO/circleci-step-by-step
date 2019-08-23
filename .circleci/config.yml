@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/openjdk:8-jdk0browsers
+      - image: circleci/openjdk:8-jdk-browsers
      setup:
       - checkout
       - run: echo "Hello CircleCI"
